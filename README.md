@@ -1,8 +1,7 @@
-#  Project template of NVIDIA HPC SDK for GPU simulations
+# Template repository of PyTorch on a GPU server
 
-NVIDIA HPC SDKを使ってGPU上で数値計算コードを開発するためのテンプレート。
+[PyTorch](https://pytorch.org/)を利用してGPUサーバ上で深層学習を実施するためのテンプレート。
 
 - Editor: Visual Studio Code
-- Container: Developement Container, Docker, NVIDIA official image of HPC SDK (nvhpc)
-- Availability: CUDA, MPI, OpenMP
-
+- Container: Development Container, Docker, NVIDIA official image of PyTorch
+- Availability: DALI, RAPIIDS, cuDNN, NCCL, TensorRT
