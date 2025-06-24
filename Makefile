@@ -4,11 +4,11 @@
 
 .PHONY: all
 all:
-	@echo Under construction
+	@make torch
 
-.PHONY: pytorch
-pytorch:
-	@echo Check PyTorch functionality
+.PHONY: torch
+torch:
+	python check_torch.py
 
 .PHONY: clean
 clean:

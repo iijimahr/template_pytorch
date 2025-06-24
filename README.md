@@ -5,3 +5,4 @@
 - Editor: Visual Studio Code
 - Container: Development Container, Docker, NVIDIA official image of PyTorch
 - Availability: DALI, RAPIIDS, cuDNN, NCCL, TensorRT
+- [PyTorch Tutorial](https://docs.pytorch.org/tutorials/)
