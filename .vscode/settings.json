@@ -1,0 +1,7 @@
+{
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.default.compileCommands": [
+    "${workspaceFolder}/build/compile_commands.json"
+  ]
+}

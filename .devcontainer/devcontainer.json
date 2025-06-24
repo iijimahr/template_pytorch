@@ -1,0 +1,40 @@
+{
+	// コンテナの名称
+	"name": "nvhpc",
+	// Dockerfileの指定(devcontainer.jsonからの相対パス)
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	// Dockerfileに含めない追加機能
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers/features/python:1": {
+			"version": "3.12",
+			"installTools": false
+		},
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	// GPUを利用
+	"runArgs": [
+		"--gpus",
+		"all"
+	],
+	// VSCodeの設定
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Anjali.clipboard-history",
+				"nvidia.nsight-vscode-edition",
+				"ms-vscode.cpptools",
+				"twxs.cmake"
+			]
+		}
+	},
+	// ホスト資源の利用設定
+	"hostRequirements": {
+		"gpu": "optional"
+	},
+	// ユーザ名
+	"updateRemoteUserUID": true,
+	"remoteUser": "root"
+}
