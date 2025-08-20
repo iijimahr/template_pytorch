@@ -13,7 +13,8 @@
 	// GPUを利用
 	"runArgs": [
 		"--gpus",
-		"all"
+		"all",
+		"--shm-size=64g"
 	],
 	// VSCodeの設定
 	"customizations": {
