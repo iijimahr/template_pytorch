@@ -1,6 +1,6 @@
 {
 	// コンテナの名称
-	"name": "nvhpc",
+	"name": "torch",
 	// Dockerfileの指定(devcontainer.jsonからの相対パス)
 	"build": {
 		"dockerfile": "Dockerfile"
@@ -17,13 +17,13 @@
 		"--shm-size=64g"
 	],
 	// VSCodeの設定
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"Anjali.clipboard-history"
-			]
-		}
-	},
+	// "customizations": {
+	// 	"vscode": {
+	// 		"extensions": [
+	// 			"Anjali.clipboard-history"
+	//		]
+	//	}
+	// },
 	// ホスト資源の利用設定
 	"hostRequirements": {
 		"gpu": "optional"
